@@ -1,16 +1,16 @@
 # Full Stack iOS Notes App
 
 - [Full Stack iOS Notes App](#full-stack-ios-notes-app)
-  - [Overview](#overview)
+  - [👀Overview](#overview)
     - [Concepts](#concepts)
-  - [Notes](#notes)
+  - [📝Notes](#notes)
     - [Setting up Database and Web Server](#setting-up-database-and-web-server)
     - [Building the UI and displaying the data](#building-the-ui-and-displaying-the-data)
     - [Implementing CRUD in Xcode](#implementing-crud-in-xcode)
     - [Custom Cell and code organization](#custom-cell-and-code-organization)
-  - [Reference](#reference)
+  - [📚Reference](#reference)
 
-## Overview
+## 👀Overview
 
 ![overview](/assets/overview.png)
 
@@ -67,7 +67,7 @@ Mongoose is an Object Data Modeling (**ODM**) **library** for MongoDB and Node.j
 
 MongoDB is a schema-less **NoSQL** document **database**. It means you can store JSON documents in it, and the structure of these documents can vary as it is not enforced like SQL databases. This is one of the advantages of using NoSQL as it speeds up application development and reduces the complexity of deployments.
 
-## Notes
+## 📝Notes
 
 ### Setting up Database and Web Server
 
@@ -79,5 +79,5 @@ MongoDB is a schema-less **NoSQL** document **database**. It means you can store
 
 
 
-## Reference
+## 📚Reference
 >https://www.youtube.com/playlist?list=PLMRqhzcHGw1YSKIO61XncxTPoFu81K1Mx
