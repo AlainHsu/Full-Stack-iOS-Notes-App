@@ -27,20 +27,45 @@ Node.js’ package ecosystem, npm, is the largest ecosystem of open source libra
 
 </details>
 
-Node.js is a JavaScript runtime environment which includes everything you need to execute a program written in JavaScript.
+Node.js is a **JavaScript runtime environment** which includes everything you need to execute a program written in JavaScript.
 
 
 <details>
   <summary>Express.js</summary>
+
+  Express.js is a framework of Node.js which means that most of the code is already written for programmers to work with. You can build a single page, multi-page, or hybrid web applications using Express.js. Express.js is lightweight and helps to organize web applications on the server-side into a more organized MVC architecture.
+
+  It is important to learn javascript and HTML to be able to use Express.js. Express.js makes it easier to manage web applications.It is a part of a javascript based technology called MEAN software stack which stands for MongoDB, ExpressJS, AngularJS, and Node.js. Express.js is the backend part of MEAN and manages routing, sessions, HTTP requests, error handling, etc.
+
+  The JavaScript library of Express.js helps the programmers to build efficient and fast web apps.  Express.js enhances the functionality of the node.js. In fact, if you don’t use Express.js, then you have to do a lot of complex programming to build an efficient API. It has made programming in node.js effortless and has given many additional features.
+
 </details>
+
+Express.js is a free and open-source **web application framework** for Node.js. It is used for designing and building web applications quickly and easily.
 
 <details>
   <summary>Mongoose</summary>
+
+  Object Mapping between Node and MongoDB managed via Mongoose
+
+  ![mongoose](/assets/object_mapping_mongoose.png)
+
 </details>
+
+Mongoose is an Object Data Modeling (**ODM**) **library** for MongoDB and Node.js. It manages relationships between data, provides schema validation, and is used to translate between objects in code and the representation of those objects in MongoDB.
 
 <details>
   <summary>MongoDB</summary>
+
+  NoSQL Documents vs. Relational Tables in SQL
+
+  ![mongo](/assets/mongo_example.png)
+
+  ![sql](/assets/sql_example.png)
+
 </details>
+
+MongoDB is a schema-less **NoSQL** document **database**. It means you can store JSON documents in it, and the structure of these documents can vary as it is not enforced like SQL databases. This is one of the advantages of using NoSQL as it speeds up application development and reduces the complexity of deployments.
 
 ## Notes
 
