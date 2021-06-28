@@ -13,7 +13,7 @@ mongoose.connection.once("open", () => {
 })
 
 // CREATE A NOTE
-// POST request
+// POST http://172.24.4.40:8081/create
 app.post("/create", (req, res) => {
     var note = new Data({
         note: req.get("note"),
@@ -32,7 +32,7 @@ app.post("/create", (req, res) => {
 })
 
 // FETCH ALL NOTES  
-// GET request
+// GET http://172.24.4.40:8081/fetch
 app.get('/fetch', (req, res) => {
     Data.find({}).then((DBItems) => {
         res.send(DBItems)
@@ -40,7 +40,7 @@ app.get('/fetch', (req, res) => {
 })
 
 // DELATE A NOTE
-// POST request
+// POST http://172.24.4.40:8081/delete
 app.post('/delete', function (req, res) {
     Data.findOneAndDelete({
         _id: req.get("id")
@@ -51,7 +51,7 @@ app.post('/delete', function (req, res) {
 })
 
 // UPDATE A NOTE
-// POST request
+// POST http://172.24.4.40:8081/update
 app.post("/update", function (req, res) {
     let params = {
         note: req.get("note"),
@@ -68,7 +68,7 @@ app.post("/update", function (req, res) {
     res.send('Update ' + req.get("id") + " succeed!")
 })
 
-// http://172.24.4.40:8081/create
+// http://172.24.4.40:8081
 var server = app.listen(8081, "172.24.4.40", () => {
     console.log("Server is running!")
 })
