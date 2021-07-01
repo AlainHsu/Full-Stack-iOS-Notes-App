@@ -13,7 +13,7 @@ mongoose.connection.once("open", () => {
 })
 
 // CREATE A NOTE
-// POST http://172.24.4.40:8081/create
+// POST http://192.168.0.3:8081/create
 app.post("/create", (req, res) => {
     var note = new Data({
         note: req.get("note"),
@@ -32,7 +32,7 @@ app.post("/create", (req, res) => {
 })
 
 // FETCH ALL NOTES  
-// GET http://172.24.4.40:8081/fetch
+// GET http://192.168.0.3:8081/fetch
 app.get('/fetch', (req, res) => {
     Data.find({}).then((DBItems) => {
         res.send(DBItems)
@@ -40,18 +40,18 @@ app.get('/fetch', (req, res) => {
 })
 
 // DELATE A NOTE
-// POST http://172.24.4.40:8081/delete
+// POST http://192.168.0.3:8081/delete
 app.post('/delete', function (req, res) {
     Data.findOneAndDelete({
         _id: req.get("id")
     }, (err) => {
         console.log("Failed" + err)
     })
-    res.send('Deleted ' + req.get("id") + " succeed!")
+    res.send('Deleted succeed!')
 })
 
 // UPDATE A NOTE
-// POST http://172.24.4.40:8081/update
+// POST http://192.168.0.3:8081/update
 app.post("/update", function (req, res) {
     let params = {
         note: req.get("note"),
@@ -68,7 +68,7 @@ app.post("/update", function (req, res) {
     res.send('Update ' + req.get("id") + " succeed!")
 })
 
-// http://172.24.4.40:8081
-var server = app.listen(8081, "172.24.4.40", () => {
+// http://192.168.0.3:8081
+var server = app.listen(8081, "192.168.0.3", () => {
     console.log("Server is running!")
 })

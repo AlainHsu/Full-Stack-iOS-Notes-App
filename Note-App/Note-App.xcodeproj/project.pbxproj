@@ -14,6 +14,8 @@
 		9F19B4AC2689B383003B75C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F19B4AB2689B383003B75C8 /* Assets.xcassets */; };
 		9F19B4AF2689B383003B75C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F19B4AD2689B383003B75C8 /* LaunchScreen.storyboard */; };
 		9F7A4C62268B720E001E75D0 /* APIFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A4C61268B720E001E75D0 /* APIFunctions.swift */; };
+		9F7A4C66268E041B001E75D0 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A4C65268E041B001E75D0 /* AddNoteViewController.swift */; };
+		9F7A4C68268E1702001E75D0 /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A4C67268E1702001E75D0 /* NoteTableViewCell.swift */; };
 		9FF3B7AF268B6CFE00D6B702 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9FF3B7AE268B6CFE00D6B702 /* Alamofire */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		9F19B4AE2689B383003B75C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F19B4B02689B383003B75C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F7A4C61268B720E001E75D0 /* APIFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFunctions.swift; sourceTree = "<group>"; };
+		9F7A4C65268E041B001E75D0 /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
+		9F7A4C67268E1702001E75D0 /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				9F19B4A22689B382003B75C8 /* AppDelegate.swift */,
 				9F19B4A42689B382003B75C8 /* SceneDelegate.swift */,
 				9F19B4A62689B382003B75C8 /* ViewController.swift */,
+				9F7A4C67268E1702001E75D0 /* NoteTableViewCell.swift */,
+				9F7A4C65268E041B001E75D0 /* AddNoteViewController.swift */,
 				9F7A4C61268B720E001E75D0 /* APIFunctions.swift */,
 				9F19B4A82689B382003B75C8 /* Main.storyboard */,
 				9F19B4AB2689B383003B75C8 /* Assets.xcassets */,
@@ -150,8 +156,10 @@
 			files = (
 				9F7A4C62268B720E001E75D0 /* APIFunctions.swift in Sources */,
 				9F19B4A72689B382003B75C8 /* ViewController.swift in Sources */,
+				9F7A4C66268E041B001E75D0 /* AddNoteViewController.swift in Sources */,
 				9F19B4A32689B382003B75C8 /* AppDelegate.swift in Sources */,
 				9F19B4A52689B382003B75C8 /* SceneDelegate.swift in Sources */,
+				9F7A4C68268E1702001E75D0 /* NoteTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
